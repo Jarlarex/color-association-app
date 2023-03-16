@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Association Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="game-description">
+            <h1>Color Association Game</h1>
+            <p>Help us collect information about people's associations with colors and sounds!</p>
+            <button id="start-btn">Start</button>
+        </div>
+        <div id="countdown" hidden>
+            <h1 id="countdown-number"></h1>
+        </div>
+        <div id="color-selection" hidden>
+            <h2>Select the color you associate with the sound:</h2>
+            <div id="colors-container">
+                <!-- Add the color buttons here -->
+            </div>
+            <button id="replay-btn">Replay Sound</button>
+            <button id="submit-btn">Submit</button>
+        </div>
+        <div id="thanks-message" hidden>
+            <h2>Thank you for your help!</h2>
+            <p>Games played: <span id="games-played">0</span></p>
+            <button id="continue-btn">Continue Playing</button>
+        </div>
+    </div>
+    <!--<script src="scripts.js"></script>-->
+</body>
+</html>
